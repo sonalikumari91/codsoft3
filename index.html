@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1><center><font-color='Brown'> Advertisment Expenditures Sales Counts</h1></center>
+<hr>
+    <form action="/predict_datapoint" method="POST">
+        <div class="container">
+            <label for="tv">TV advertisment</label>
+                <input type="float" name="tv" placeholder="tv rate" required>
+            <label for="radio">Radio advertisment
+                <input type="float" name="radio" placeholder="radio rate" required>
+            <label for="news">
+                Newspaper advertisment</label>
+                 <input type="float" name="news" placeholder="newspaper rate" required>
+        <hr>
+        <button class="predictbtn" type="predict">Predict</button> </div>
+
+    </form>
+ 
+</body>
+</html>
